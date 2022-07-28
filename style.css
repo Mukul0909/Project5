@@ -1,0 +1,127 @@
+body {
+    background-image: url("./assets/bg.png");
+    background-size: cover;
+    background-repeat: no-repeat;
+    margin: 0;
+    padding: 0;
+  }
+  
+  * {
+    font-family: "Poppins";
+  }
+  .navbar {
+    background-color: #000;
+    height: 80px;
+  }
+  
+  .logo {
+    padding: 10px;
+    position: relative;
+    left: 50px;
+  }
+  
+  .list {
+    float: right;
+    padding: 0;
+    margin: 0;
+    color: #fff;
+    list-style: none;
+    position: relative;
+  }
+  
+  .list-item {
+    display: inline-block;
+    position: relative;
+    padding: 30px;
+    /* margin-right: 100px; */
+    top: -90px;
+    right: 390px;
+  }
+  
+  .lis5 {
+    list-style: none;
+    position: relative;
+    left: -40px;
+    display: block;
+    line-height: 40px;
+  }
+  
+  .grow-list ul ul {
+    position: absolute;
+    top: 60px;
+    display: none;
+  }
+  
+  .grow-list ul li:hover > ul {
+    display: block;
+    text-align: center;
+  }
+  
+  .grow-list ul ul li {
+    width: 150px;
+    background-color: rgba(44, 44, 44, 0.76);
+    transition-duration: 3s;
+    color: #fff;
+    position: relative;
+    display: list-item;
+    float: none;
+  }
+  
+  .button-small {
+    background-color: #ba0cc5;
+    border: none;
+    position: absolute;
+    border-radius: 3px;
+    color: #fff;
+    font-weight: 600;
+    padding: 10px 30px;
+    font-size: 14px;
+    right: 20px;
+    top: 20px;
+  }
+  
+  .button-small:hover {
+    background-color: #5c1361ce;
+    transition-timing-function: ease-in;
+  }
+  
+  .hero-heading {
+    font-size: 70px;
+    color: #fff;
+    display: inline-block;
+    width: 800px;
+    height: 500px;
+    font-family: "Montserrat";
+    text-align: center;
+    position: relative;
+    top: 0px;
+    left: 250px;
+  }
+  
+  .hero-description {
+    font-size: 22px;
+    color: #fff;
+    display: inline-block;
+    font-family: "Montserrat";
+    position: absolute;
+    left: 360px;
+    top: 395px;
+  }
+  
+  .button-large {
+    background-color: #ba0cc5;
+    border: none;
+    position: absolute;
+    border-radius: 5.5px;
+    color: #fff;
+    font-weight: 600;
+    padding: 10px 30px;
+    font-size: 18px;
+    bottom: 120px;
+    right: 540px;
+  }
+  .button-large:hover {
+    background-color: #5c1361ce;
+    transition-timing-function: ease-in;
+  }
+  
